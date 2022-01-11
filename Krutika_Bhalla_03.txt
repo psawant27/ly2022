@@ -1,0 +1,8 @@
+Krutika Bhalla
+git commands : 
+    git clone
+    git init
+    git config --global user.name "krutikabhalla"
+    git config --global user.email "krutika.bhalla@somaiya.edu"
+    echo "hello">random2.txt
+    git status
