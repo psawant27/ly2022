@@ -1,0 +1,30 @@
+What is DevOps?
+What is Version Control?
+
+CI - Continuous Integration: Jenkins
+    What is ?
+        Developers commit code to a shared repository
+        VCS is being monitored. When a commit is made the build will be triggered
+        Build not successful then notification to the developers
+
+    Why?
+        Detect problems or bugs as early as possible in the development cycle
+        Since entire code base is integreated built and tested constantly the potential bugs and errors are cought earlier
+    
+    Different Phases
+        Stage1: 
+            No build servers
+            Developers commit on regular basis
+            changes are integreated and tested manually
+            fewer releases
+        Stage2:
+            Automated builds are scheduled
+            Build script compiles the applixation and runs a set of automated tests
+            Build servers would alter the team members if build failure
+        Stage3:
+        Stage4:
+            Automated code quality and code coverage metrics
+        Stage5: 
+            Automated Deployment
+
+    Installation Guide: https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04
